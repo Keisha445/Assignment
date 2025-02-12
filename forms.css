@@ -1,0 +1,27 @@
+/*Working on html forms and adding css*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    color: #b41414;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: blanchedalmond;
+    color: rgb(165, 127, 255);
+    padding: 20px;
+}
+
+button {
+    background-color: chocolate;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
