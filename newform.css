@@ -1,0 +1,29 @@
+body {
+    background: url(pics/download.jpg);    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+form {
+    padding: 30px;
+    color: yellow;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background */
+    text-align: center;
+}
+
+button {
+    background-color: magenta;
+    color: powderblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cadetblue;
+}

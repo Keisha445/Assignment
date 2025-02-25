@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Working on button events-->
+    <button onclick="alert('Button clicked!')">Click Me</button>
+    <button ondblclick="document.getElementById('text').style.display='block'">Double Click Me</button>
+<p id="text" style="display:none;">You double-clicked the button!</p>
+
+    <button onmouseover="this.style.backgroundColor='lightblue'">Hover Over Me</button>
+    <button onmouseover="this.style.backgroundColor='lightblue'" 
+        onmouseout="this.style.backgroundColor='white'">
+  Hover and Leave
+</button>
+    <button onmousedown="document.getElementById('message').innerText='Mouse is down!'">Hold me</button>
+    <button onmouseup="document.getElementById('message').innerText='Mouse is up!'">Release Me</button>
+<p id="message"></p>
+    <button onfocus="this.style.border='2px solid red'">Focus on Me</button>
+></button>
+    <button onfocus="this.style.border='2px solid red'" 
+    onblur="this.style.border='1px solid black'">
+Click then Click Away></button>
+
+
+    
+</body>
+</html>
