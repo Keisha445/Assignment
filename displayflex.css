@@ -1,0 +1,75 @@
+/*global styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Styling the nav bar*/
+.joel{
+    background-color:  rgb(13, 77, 85);
+    color: white;
+}
+
+.joel ol{
+    display: flex;
+}
+
+.philip{
+    display: flex;
+    min-height: 7vh;
+    justify-content: space-between;
+    align-items:center;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/*Working on Home Page*/
+.sec {
+    background: linear-gradient(rgba(10, 10, 10, 0.418),transparent),url(pics/2020-rolls-royce-wraith-104-1584549150.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bene {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.button{
+    border-radius: 10px;
+    padding: 1rem 4rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(13, 77, 85);
+    font-size: larger;
+}
+h1{
+    padding: 2rem 5rem;
+    color: white;
+    font-size: xx-large;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
