@@ -75,6 +75,11 @@ span {
     flex-direction: column;
 }
 
+.bene h1{
+    color: rgb(25, 210, 235);
+    font-size: xx-large;
+}
+
 /* Animated Button */
 .animated-button {
     border-radius: 8px;
@@ -104,4 +109,37 @@ span {
 @keyframes fadeInAnimation {
     0% { opacity: 0; transform: translateY(-10px); }
     100% { opacity: 1; transform: translateY(0); }
+}
+
+/*Styling Footer*/
+footer{
+    background-color: rgb(13, 77, 85);
+}
+
+.Footerchild{
+    display: flex;
+    width: 90;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 19%;
+    min-height: 20vh;
+    flex: 1 1 20rem;
+}
+
+.Fchild1{
+    flex-grow: 2;
+    flex-basis: 30rem;
+}
+
+.Fchild1 h1{
+    padding-top: 10rem;
+    color: wheat;
+}
+.Fchild2{
+    list-style: ;
 }
