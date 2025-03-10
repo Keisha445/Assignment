@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.a {
+a {
     color: white;
     text-decoration: none;
     font-size: 15px;
@@ -24,9 +24,24 @@ body {
     background-color:  rgb(13, 77, 85);
     color: white;
 }
+span {
+    color: rgb(13, 27, 85);
+}
 
 .joel ol{
     display: flex;
+    flex-basis: 25rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.joel h1{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 25rem;
+    font-size: xx-large;
 }
 
 .philip{
@@ -36,6 +51,12 @@ body {
     align-items:center;
     width: 90%;
     margin: auto;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.nav li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -57,11 +78,11 @@ body {
 }
 
 .button{
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 1rem 4rem;
     color: rgb(0, 0, 0);
     background-color: rgb(13, 77, 85);
-    font-size: larger;
+    font-size: large;
 }
 h1{
     padding: 2rem 5rem;
@@ -71,5 +92,7 @@ h1{
 
 button:hover{
     background-color: cadetblue;
+    color: beige;
+    cursor: pointer;
 }
 
