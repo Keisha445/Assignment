@@ -15,6 +15,11 @@ html {
     font-size: 62.5%;
 }
 
+ol ul{
+    list-style: none;
+}
+
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -134,12 +139,41 @@ footer{
 .Fchild1{
     flex-grow: 2;
     flex-basis: 30rem;
+    text-align: center;
 }
 
 .Fchild1 h1{
     padding-top: 10rem;
-    color: wheat;
+    color: yellowgreen;
+    text-align: center;
+    text-decoration: underline;
 }
-.Fchild2{
-    list-style: ;
+
+.Fchild2, .Fchild3, .Fchild4{
+    padding: 4rem
+}
+
+.Fchild4 ul {
+    display: flex;
+    flex: 1 1 26rem;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.Fchild2 ul, .Fchild3 ul {
+    line-height: 2rem;
+    list-style: none;
+}
+
+/*Media Quarry*/
+@media screen and (max-width: 814px) {
+.joel h1{
+    text-align: center;
+}    
+.joel{
+    padding-bottom: 1rem;
+    padding-top: 0.4rem;
+}
+
 }
