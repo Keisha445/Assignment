@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f0f0f0;
+    background: url('pics/elephant-unsplash.jpg') no-repeat center center/cover; /* Add background image */
 }
 
 /* Grid container */
@@ -22,6 +22,9 @@ body {
     width: 80%;
     max-width: 900px;
     place-items: center;
+    background: rgba(255, 255, 255, 0.8); /* Slight background for better readability */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Style images */
