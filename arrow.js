@@ -1,3 +1,6 @@
+
+
+
 // Arrow function to calculate age
 const calculateAge = (birthYear) => {
     const currentYear = new Date().getFullYear();
@@ -16,4 +19,5 @@ const calculateAge = (birthYear) => {
       resultDiv.innerHTML = `<p>You are <strong>${age}</strong> years old.</p>`;
     }
   }
+
   
